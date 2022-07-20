@@ -1,6 +1,7 @@
 package net.fratboychad21.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fratboychad21.tutorialmod.block.ModBlocks;
 import net.fratboychad21.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
