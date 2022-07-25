@@ -16,13 +16,13 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block TANZANITE_BLOCK = registerBlock("tanzanite_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(1.5f).requiresTool()), ModItemGroup.TANZANITE);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(2.5f).requiresTool()), ModItemGroup.TANZANITE);
 
     public static final Block TANZANITE_ORE = registerBlock("tanzanite_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(2.5f).requiresTool(),
                     UniformIntProvider.create(3, 7)), ModItemGroup.TANZANITE);
     public static final Block DEEPSLATE_TANZANITE_ORE = registerBlock("deepslate_tanzanite_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool(),
                     UniformIntProvider.create(3, 7)), ModItemGroup.TANZANITE);
 
 

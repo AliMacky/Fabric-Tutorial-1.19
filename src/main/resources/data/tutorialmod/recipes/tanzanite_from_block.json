@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tutorialmod:raw_tanzanite"
+      "item": "tutorialmod:tanzanite_block"
     }
   ],
 
