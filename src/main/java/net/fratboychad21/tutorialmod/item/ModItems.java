@@ -9,10 +9,10 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item RAW_TANZANITE = regiseterItem("raw_tanzanite",
-            new Item(new FabricItemSettings().group(ModitemGroup.TANZANITE)));
+            new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
 
     public static final Item TANZANITE = regiseterItem("tanzanite",
-            new Item(new FabricItemSettings().group(ModitemGroup.TANZANITE)));
+            new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
 
 
     private static Item regiseterItem(String name, Item item) {
